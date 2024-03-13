@@ -3,8 +3,6 @@ import Food from '../../models/food'
 import sushi from '../../assets/images/sushi.png'
 import macarrao from '../../assets/images/macarrao.png'
 import FoodList from '../../components/FoodList'
-import { Header2 } from '../../components/Header'
-import Footer from '../../components/Footer'
 
 const products: Food[] = [
   {
@@ -70,9 +68,7 @@ const products: Food[] = [
 ]
 const Home = () => (
   <>
-    <Header2 />
     <FoodList food={products} title="products" background="branco" />
-    <Footer />
   </>
 )
 

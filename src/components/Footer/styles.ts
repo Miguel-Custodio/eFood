@@ -6,36 +6,36 @@ export const Container = styled.footer`
   max-width: 1366px;
   height: 298px;
   width: 100%;
-
-  img {
-    margin-top: 40px;
-    margin-left: 621px;
-  }
+`
+export const Foot = styled.div`
+  width: 1024px;
+  height: 298px;
+  margin: auto 171px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 `
 export const Logo = styled.div`
   width: 125px;
   height: 58px;
-  margin-left: 621px;
+  margin-left: 450px;
   margin-top: 40px;
 `
 export const Social = styled.div`
+  width: 88px;
+  height: 24px;
   display: flex;
   align-items: center;
-  width: 88px;
-  margin-left: 621px;
-
-  img {
-    margin-top: 48px;
-    margin-bottom: 72px;
-    margin-left: 12px;
-  }
+  justify-content: space-between;
+  margin-top: 32px;
 `
 export const TextFooter = styled.h3`
   color: ${cores.salmao};
-  width: 480px;
-  heigth: 24px;
-  margin-left: 444px;
+  width: 49it0px;
+  height: 24px;
   font-family: 'Roboto', sans-serif;
   font-size: 10px;
   text-align: center;
+  margin-top: 90px;
 `

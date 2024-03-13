@@ -17,8 +17,10 @@ export const GlobalCss = createGlobalStyle`
   list-style: none;
 }
 
-.container {
-  max-width: 1366px;
-  width: 100%;
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 `

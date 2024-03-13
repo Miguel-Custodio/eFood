@@ -1,7 +1,5 @@
 import pizza from '../../assets/images/pizza.png'
 import Banner from '../../components/Banner'
-import Footer from '../../components/Footer'
-import { Header } from '../../components/Header'
 import LaDolceList from '../../components/LaDolceList'
 import LaDolce from '../../models/laDolce'
 
@@ -52,14 +50,12 @@ const laDolceVitaTrattoria: LaDolce[] = [
 
 const Perfil = () => (
   <>
-    <Header />
     <Banner />
     <LaDolceList
       title="Pizza Marguerita"
       background="branco"
       LaDolce={laDolceVitaTrattoria}
     />
-    <Footer />
   </>
 )
 

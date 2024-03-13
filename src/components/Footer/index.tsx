@@ -1,4 +1,4 @@
-import { Container, Social, TextFooter } from './styles'
+import { Container, Social, TextFooter, Foot } from './styles'
 
 import logo from '../../assets/images/logo.png'
 import facebook from '../../assets/images/facebook.png'
@@ -8,19 +8,21 @@ import instagram from '../../assets/images/instagram.png'
 const Footer = () => (
   <>
     <Container>
-      <div>
-        <img src={logo} alt="EFOOD" />
-      </div>
-      <Social>
-        <img src={instagram} alt="intagram" />
-        <img src={facebook} alt="facebook" />
-        <img src={twitter} alt="twitter" />
-      </Social>
-      <TextFooter>
-        A efood é uma plataforma para divulgação de estabelecimentos, a
-        responsabilidade pela entrega, qualidade dos produtos é toda do
-        estabelecimento contratado.
-      </TextFooter>
+      <Foot>
+        <div>
+          <img src={logo} alt="EFOOD" />
+        </div>
+        <Social>
+          <img src={instagram} alt="intagram" />
+          <img src={facebook} alt="facebook" />
+          <img src={twitter} alt="twitter" />
+        </Social>
+        <TextFooter>
+          A efood é uma plataforma para divulgação de estabelecimentos, a
+          responsabilidade pela entrega, qualidade dos produtos é toda do
+          estabelecimento contratado.
+        </TextFooter>
+      </Foot>
     </Container>
   </>
 )

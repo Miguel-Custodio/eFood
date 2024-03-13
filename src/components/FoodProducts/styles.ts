@@ -11,7 +11,7 @@ export const Card = styled.div`
   color: ${cores.salmao};
 
   ${TagContainer} {
-    margin-right: 8px;
+    margin: 6px 2px;
   }
 
   img {
@@ -37,13 +37,12 @@ export const Titulo = styled.h3`
 export const Descricao = styled.p`
   font-size: 14px;
   line-height: 22px;
-  display: block;
   padding: 8px;
 `
 export const Infos = styled.div`
   position: absolute;
-  top: 16px;
-  right: 16px;
+  top: 8px;
+  right: 8px;
 `
 export const Notas = styled.span`
   width: 55px;
@@ -51,4 +50,7 @@ export const Notas = styled.span`
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
+`
+export const SaibaMais = styled.div`
+  margin-left: 6px;
 `
